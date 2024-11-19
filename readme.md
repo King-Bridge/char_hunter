@@ -1,3 +1,18 @@
+# 用法
+1. 
+```
+git clone https://github.com/King-Bridge/char_hunter.git
+cd char_hunter
+pip install -r requirements.txt
+```
+2. 下载对应电脑硬件版本的pytorch
+3. 下载数据集`round0_eval/`和`round0_train/`到`char_hunter/`目录下
+4. 
+```
+python train.py
+```
+
+# TODO
 基本上需要修改的部分都在train.py里。其余几个文件可以看看，了解一下sampler、loss、metric是什么原理就行。
 
 

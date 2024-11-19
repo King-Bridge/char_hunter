@@ -3,8 +3,8 @@ import torch.nn as nn
 from torchvision.models import resnet50, resnet18, googlenet # 引入 ResNet50 和 GoogLeNet
 
 # 其他backbone可以在这里导入，例如:
-from efficientnet_pytorch import EfficientNet  # EfficientNet
-import timm  #timm库，包含vit等SOTA模型
+# from efficientnet_pytorch import EfficientNet  # EfficientNet
+# import timm  #timm库，包含vit等SOTA模型
 
 
 class CharModel(nn.Module):
